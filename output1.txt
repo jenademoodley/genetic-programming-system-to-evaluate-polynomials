@@ -1,0 +1,721 @@
+Parameters
+===========
+Population Size:		50
+Tree Depth:				5
+Maximum Offspring Size:				6
+Method:					Grow Method
+Bound:					0.01
+Equation:				(X^4) + (X^3) + (X^2) + 1
+Tournament Size:		3
+Crossover Rate:			60%
+Mutation Rate:			30%
+Reproduction Rate:		10%
+Number of Offspring:	5
+
+Seed used: :	10
+
+Initial Population
+===================
+Tree:		*	+	X	-	1	/	1	1	/	+	X	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	3	4	4	5	5	2	3	4	4	5	5	3	
+Fitness:	28653.0
+Hit Ratio:	0
+
+
+Tree:		-	X	-	-	1	-	X	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	2	3	4	4	5	5	3	
+Fitness:	28653.0
+Hit Ratio:	0
+
+
+Tree:		+	-	-	-	X	X	*	1	X	1	*	*	-	1	1	X	*	*	1	1	*	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	2	3	4	5	5	4	3	4	5	5	4	5	5	
+Fitness:	28818.0
+Hit Ratio:	0
+
+
+Tree:		-	1	-	1	1	
+Node ID:	0	1	2	3	4	
+Node Depth:	1	2	2	3	3	
+Fitness:	28743.0
+Hit Ratio:	0
+
+
+Tree:		-	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28753.0
+Hit Ratio:	0
+
+
+Tree:		*	*	1	*	X	X	+	*	X	1	+	*	X	1	+	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	3	4	4	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	19293.0
+Hit Ratio:	1
+
+
+Tree:		-	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28753.0
+Hit Ratio:	0
+
+
+Tree:		+	-	X	1	/	1	*	/	X	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	3	3	2	3	3	4	5	5	4	
+Fitness:	28705.072
+Hit Ratio:	0
+
+
+Tree:		-	1	+	-	/	X	X	/	X	1	-	1	/	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	2	3	4	5	5	4	5	5	3	4	4	5	5	
+Fitness:	28705.072
+Hit Ratio:	0
+
+
+Tree:		/	-	/	X	+	X	1	+	X	X	+	-	+	X	X	X	/	*	1	1	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	4	5	5	3	4	4	2	3	4	5	5	4	3	4	5	5	4	5	5	
+Fitness:	28769.918
+Hit Ratio:	0
+
+
+Tree:		/	*	X	*	/	1	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	3	3	4	5	5	4	2	
+Fitness:	28698.0
+Hit Ratio:	0
+
+
+Tree:		-	/	*	X	X	+	-	1	1	/	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	4	3	4	5	5	4	5	5	2	
+Fitness:	28378.0
+Hit Ratio:	0
+
+
+Tree:		*	+	1	+	+	1	X	+	1	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	3	3	4	5	5	4	5	5	2	
+Fitness:	27820.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	1	1	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	22440.93
+Hit Ratio:	0
+
+
+Tree:		-	-	*	/	1	X	-	1	X	X	-	/	+	1	X	*	X	1	/	+	X	X	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28718.0
+Hit Ratio:	0
+
+
+Tree:		*	X	*	/	-	X	1	*	1	X	+	/	1	X	-	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28745.928
+Hit Ratio:	0
+
+
+Tree:		/	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28743.0
+Hit Ratio:	0
+
+
+Tree:		/	X	-	-	*	X	1	-	X	1	+	1	-	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	2	3	4	5	5	4	5	5	3	4	4	5	5	
+Fitness:	28763.83
+Hit Ratio:	0
+
+
+Tree:		/	+	+	X	1	+	X	*	1	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	3	4	4	3	4	4	5	5	2	
+Fitness:	28727.14
+Hit Ratio:	1
+
+
+Tree:		+	/	1	-	/	X	X	*	X	1	+	/	X	+	X	X	+	*	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	3	4	5	5	4	5	5	2	3	4	4	5	5	3	4	5	5	4	
+Fitness:	28639.83
+Hit Ratio:	0
+
+
+Tree:		-	*	*	/	X	X	-	X	1	/	X	1	/	/	-	1	X	*	X	X	/	*	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	2	3	4	5	5	4	5	5	3	4	5	5	4	
+Fitness:	28421.621
+Hit Ratio:	0
+
+
+Tree:		-	*	*	-	X	X	X	-	X	-	1	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	3	4	4	5	5	2	
+Fitness:	28808.0
+Hit Ratio:	0
+
+
+Tree:		+	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28733.0
+Hit Ratio:	0
+
+
+Tree:		*	X	/	X	-	/	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	2	3	3	4	5	5	4	
+Fitness:	29201.83
+Hit Ratio:	0
+
+
+Tree:		/	*	1	/	X	/	X	1	/	*	X	/	X	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	3	4	4	5	5	2	3	4	4	5	5	3	
+Fitness:	28751.451
+Hit Ratio:	0
+
+
+Tree:		+	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28733.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	/	1	1	+	X	1	X	+	/	-	1	1	-	1	1	+	/	1	1	-	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	
+Fitness:	29158.0
+Hit Ratio:	0
+
+
+Tree:		*	X	/	1	X	
+Node ID:	0	1	2	3	4	
+Node Depth:	1	2	2	3	3	
+Fitness:	28743.0
+Hit Ratio:	0
+
+
+Tree:		-	/	1	*	1	/	X	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	3	3	4	4	5	5	2	
+Fitness:	28760.072
+Hit Ratio:	0
+
+
+Tree:		*	-	/	/	1	1	-	X	X	*	/	1	X	1	*	/	+	X	X	X	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	5	5	4	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	28183.0
+Hit Ratio:	0
+
+
+Tree:		*	1	*	*	-	1	1	*	1	X	+	/	1	X	/	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28753.0
+Hit Ratio:	0
+
+
+Tree:		+	1	/	X	X	
+Node ID:	0	1	2	3	4	
+Node Depth:	1	2	2	3	3	
+Fitness:	28733.0
+Hit Ratio:	0
+
+
+Tree:		-	X	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28708.0
+Hit Ratio:	0
+
+
+Tree:		+	*	*	1	-	1	X	1	/	X	+	+	X	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	4	4	5	5	3	2	3	3	4	5	5	4	
+Fitness:	28791.207
+Hit Ratio:	0
+
+
+Tree:		*	*	/	/	X	1	+	X	X	+	/	1	1	*	X	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	2	
+Fitness:	28720.5
+Hit Ratio:	0
+
+
+Tree:		/	+	-	X	*	1	1	1	/	+	1	*	X	1	*	*	X	X	+	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	4	4	5	5	3	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	25728.0
+Hit Ratio:	0
+
+
+Tree:		/	+	-	/	1	1	*	X	1	+	*	1	X	*	1	1	*	1	*	+	X	1	+	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	2	3	3	4	5	5	4	5	5	
+Fitness:	28750.98
+Hit Ratio:	0
+
+
+Tree:		/	-	*	+	1	X	+	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	2	
+Fitness:	27928.0
+Hit Ratio:	0
+
+
+Tree:		*	+	-	-	X	X	-	1	1	-	/	1	X	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	5	5	4	2	
+Fitness:	29128.0
+Hit Ratio:	0
+
+
+Tree:		-	*	X	X	1	
+Node ID:	0	1	2	3	4	
+Node Depth:	1	2	3	3	2	
+Fitness:	28378.0
+Hit Ratio:	0
+
+
+Tree:		/	X	/	/	+	1	1	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	2	3	4	5	5	4	3	
+Fitness:	28560.5
+Hit Ratio:	0
+
+
+Tree:		/	X	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28698.0
+Hit Ratio:	0
+
+
+Tree:		*	1	+	X	+	/	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	2	3	3	4	5	5	4	5	5	
+Fitness:	28633.0
+Hit Ratio:	0
+
+
+Tree:		-	-	+	/	X	1	*	X	1	*	*	1	X	/	1	X	*	*	/	1	1	X	+	+	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	5	5	4	5	5	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	29148.0
+Hit Ratio:	0
+
+
+Tree:		-	*	+	-	1	X	-	X	X	X	*	+	1	/	1	1	/	/	X	1	-	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	29103.0
+Hit Ratio:	0
+
+
+Tree:		*	*	/	*	1	1	X	+	-	1	X	1	+	-	/	X	1	1	/	+	X	1	/	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	3	4	5	5	4	2	3	4	5	5	4	3	4	5	5	4	5	5	
+Fitness:	29093.86
+Hit Ratio:	0
+
+
+Tree:		/	X	/	-	1	*	X	1	+	-	1	X	/	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28707.83
+Hit Ratio:	0
+
+
+Tree:		-	1	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28753.0
+Hit Ratio:	0
+
+
+Tree:		*	1	+	+	1	/	1	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	
+Node Depth:	1	2	2	3	4	4	5	5	3	
+Fitness:	28685.072
+Hit Ratio:	0
+
+
+Tree:		+	X	1	
+Node ID:	0	1	2	
+Node Depth:	1	2	2	
+Fitness:	28688.0
+Hit Ratio:	0
+
+
+Final Generation
+=================
+Tree:		/	+	+	X	1	1	/	+	1	*	X	1	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	4	4	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	2631.999
+Hit Ratio:	0
+
+
+Tree:		/	+	+	X	1	1	/	+	1	*	X	1	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	4	4	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	2631.999
+Hit Ratio:	0
+
+
+Tree:		*	+	X	+	X	X	*	/	+	X	X	X	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	3	4	4	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	12913.0
+Hit Ratio:	0
+
+
+Tree:		/	+	-	X	*	1	1	1	/	+	1	*	X	X	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	4	5	5	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	25404.756
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	450.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	+	X	X	+	1	+	X	X	/	+	1	1	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	5	5	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	22383.86
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	1	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	
+Fitness:	22403.0
+Hit Ratio:	0
+
+
+Tree:		-	X	/	X	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	
+Node Depth:	1	2	2	3	3	4	5	5	4	5	5	
+Fitness:	28708.0
+Hit Ratio:	0
+
+
+Tree:		*	+	X	+	X	X	*	/	+	X	X	1	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	3	4	4	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	105103.0
+Hit Ratio:	0
+
+
+Tree:		X	
+Node ID:	0	
+Node Depth:	1	
+Fitness:	28698.0
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	450.0
+Hit Ratio:	0
+
+
+Tree:		1	
+Node ID:	0	
+Node Depth:	1	
+Fitness:	28743.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	
+Fitness:	22448.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	22433.86
+Hit Ratio:	0
+
+
+Tree:		1	
+Node ID:	0	
+Node Depth:	1	
+Fitness:	28743.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	+	1	X	+	X	X	/	1	1	X	/	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	4	5	6	6	5	6	6	4	5	5	3	2	3	3	
+Fitness:	21998.0
+Hit Ratio:	0
+
+
+Tree:		X	
+Node ID:	0	
+Node Depth:	1	
+Fitness:	28698.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	+	X	X	*	X	1	/	+	1	1	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	25761.36
+Hit Ratio:	0
+
+
+Tree:		-	*	-	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	1	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28013.0
+Hit Ratio:	0
+
+
+Tree:		-	*	1	+	1	+	X	X	/	+	1	-	1	X	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28628.86
+Hit Ratio:	0
+
+
+Tree:		*	+	X	+	X	X	*	/	+	X	X	X	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	3	4	4	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	12913.0
+Hit Ratio:	0
+
+
+Tree:		/	-	*	+	1	+	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	4	5	5	6	6	4	5	5	6	6	3	2	
+Fitness:	21550.0
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	1	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	25398.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	+	X	X	+	1	+	X	X	/	+	1	1	-	+	X	1	*	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	5	5	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	22398.0
+Hit Ratio:	0
+
+
+Tree:		-	*	X	*	*	X	X	+	+	1	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	3	4	5	5	4	5	6	6	5	2	
+Fitness:	2624.0
+Hit Ratio:	0
+
+
+Tree:		-	*	X	*	*	X	X	+	+	1	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	3	4	5	5	4	5	6	6	5	2	
+Fitness:	2624.0
+Hit Ratio:	0
+
+
+Tree:		*	+	X	+	X	X	*	/	+	X	X	X	*	-	1	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	3	4	4	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	28753.0
+Hit Ratio:	0
+
+
+Tree:		/	+	-	X	*	1	1	1	/	+	1	*	X	1	*	+	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	4	5	5	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	22703.0
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	450.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	+	1	X	+	X	X	-	*	X	1	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	
+Node Depth:	1	2	3	4	5	6	6	5	6	6	4	5	6	6	5	3	2	
+Fitness:	22273.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	+	1	*	X	1	+	1	+	X	X	/	+	1	-	1	X	-	+	1	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	23228.0
+Hit Ratio:	0
+
+
+Tree:		/	+	+	X	1	1	/	/	X	X	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+Node Depth:	1	2	3	4	4	3	2	3	4	4	3	4	5	5	4	5	5	6	6	
+Fitness:	274121.0
+Hit Ratio:	0
+
+
+Tree:		/	+	+	X	1	1	/	-	X	*	1	1	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	4	4	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	11380.973
+Hit Ratio:	0
+
+
+Tree:		/	+	+	1	*	X	1	1	/	+	1	*	X	X	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	4	5	5	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	24547.316
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	1	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	22758.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	+	X	X	+	1	+	X	X	/	+	X	1	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	5	5	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	22390.93
+Hit Ratio:	0
+
+
+Tree:		-	*	-	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	1	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	28013.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	X	-	+	*	X	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	3	4	5	6	6	5	4	5	5	
+Fitness:	22440.93
+Hit Ratio:	0
+
+
+Tree:		*	-	*	+	1	X	+	X	*	X	X	X	*	/	+	X	X	X	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	3	4	5	5	4	3	4	5	5	4	
+Fitness:	451471.0
+Hit Ratio:	0
+
+
+Tree:		/	+	X	+	X	X	1	
+Node ID:	0	1	2	3	4	5	6	
+Node Depth:	1	2	3	3	4	4	2	
+Fitness:	28588.0
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	450.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	+	X	X	+	1	+	X	X	/	+	1	1	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	4	4	5	5	2	3	4	4	3	4	5	5	4	5	5	
+Fitness:	22383.86
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	1	/	+	1	-	1	X	-	+	1	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	24998.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	X	X	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	22440.93
+Hit Ratio:	0
+
+
+Tree:		*	+	X	+	X	X	*	/	-	X	*	1	1	X	*	-	X	1	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+Node Depth:	1	2	3	3	4	4	2	3	4	5	5	6	6	4	3	4	5	5	4	
+Fitness:	21823.0
+Hit Ratio:	0
+
+
+Tree:		/	+	+	X	X	1	/	+	1	*	X	X	*	*	X	X	+	X	*	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	
+Node Depth:	1	2	3	4	4	3	2	3	4	4	5	5	3	4	5	5	4	5	5	6	6	
+Fitness:	21627.793
+Hit Ratio:	0
+
+
+Tree:		/	-	*	*	X	X	+	X	*	X	X	X	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Node Depth:	1	2	3	4	5	5	4	5	5	6	6	3	2	
+Fitness:	450.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	+	1	X	+	X	X	X	X	/	X	X	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	
+Node Depth:	1	2	3	4	5	6	6	5	6	6	4	3	2	3	3	
+Fitness:	22328.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	1	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	22403.0
+Hit Ratio:	0
+
+
+Tree:		-	*	-	*	X	X	/	X	X	+	1	+	X	X	/	+	1	-	1	X	-	+	X	1	*	1	1	
+Node ID:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	
+Node Depth:	1	2	3	4	5	5	4	5	5	3	4	4	5	5	2	3	4	4	5	5	3	4	5	5	4	5	5	
+Fitness:	22433.86
+Hit Ratio:	0
+
+
+No successes
